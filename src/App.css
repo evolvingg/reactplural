@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.github-profile {
+  margin: 1rem;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.github-profile img {
+  width: 75px;
+}
