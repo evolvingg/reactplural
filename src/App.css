@@ -1,3 +1,9 @@
+body * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -43,4 +49,32 @@
 
 .github-profile img {
   width: 75px;
+}
+
+.main-container {
+
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  border: 1px solid #f00;
+  /* height: 650px; */
+  height: 746px;
+  padding: 1px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main-container > div {
+  border: 1px solid #555;
+  flex: 0 0 200px;
+  background-color: #ccc;
+  width: 200px;
+  margin: 1px;
+  font-size: 50px;
+  line-height:200px;
+  text-align: center;
+}
+
+.main-container > div > div {
+  overflow: hidden;
 }

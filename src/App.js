@@ -6,6 +6,7 @@ import Display from './components/Display';
 import CardList from './components/CardList';
 import {users} from './data/users';
 import Form from './components/Form';
+import Grid from './components/Grid';
 //  gaearon , sophiebits , sebmarkbage ,bvaughn
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Display message={counter}/>
       <CardList users={user}/>
       <Form onSubmit={addNewProfile}/>
+      <Grid />
     </div>
   );
 }
